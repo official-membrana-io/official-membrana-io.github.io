@@ -2,12 +2,33 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Unavailable</title>
+    <title>Attention! - Membrana.io</title>
     <style language="css">
-      html {
+      body {
         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-        background-color: #000;
-        color: #fff;
+      }
+
+      body {
+        color: #303858;
+      }
+
+      a {
+        color: #10967e;
+      }
+
+      @media (prefers-colo-scheme: dark) {
+        body {
+          background-color: #303858;
+          color: #e1e7ff;
+        }
+
+        a {
+          color: #10967e;
+        }
+      }
+
+      * {
+        box-sizing: border-box;
       }
 
       body {
@@ -17,18 +38,103 @@
         align-items: center;
       }
 
+      .Logo {
+        margin: 0 auto;
+        display: block;
+      }
+
       .Alert {
+        max-width: 620px;
+        margin: 0 auto;
+      }
+
+      .Alert-important {
+        font-size: 120%;
+        /* margin: 0; */
+      }
+
+      .text-center {
         text-align: center;
       }
     </style>
   </head>
   <body>
     <div class="Alert">
-      <img src="./logo.svg" />
-      <p>
-        Site is temporary unavailable.
+      <img class="Logo" src="./logo.svg" />
+      <h1 class="text-center" >Attention</h1>
+      <p class="Alert-important"><strong>Do not contribute</strong> to any Membrana activity until official statement is made due to risk of funds loss.
+        <strong>Do not provide</strong> your personal or financial information to anyone. Only
+        commits, transactions and deployed contracts could be a significant proof.
+        <strong>Do contact</strong> one of the exchanges provided below,
+        if you're a client of this exchanges.
       </p>
+        If you're an investor, token holder or adviser of Membrana.io token sale, please
+        contact <a href="mailto:info@membrana.io">info@membrana.io</a> or official telegram group <a href="https://t.me/MembranaPlatform">@MembranaPlatform</a>.
+      </p>
+      <p>
+        There is no lockup since IEO were made. <strong>Top management still controlls around 66%</strong> of token emission
+        (or 430M of 650M) and could flood the market anytime. There is a suspicions of continuos token sale
+        made by top management due to lock period announced at December 9th, 2019.
+      </p>
+      <p>
+        Ex-members of the project couldn't receive their tokens, significant
+        proofs of lockup existence or guarantees of such lockup creation.
+        This page is supported by old team members and ex-CEO and co-owner
+        of Membrana LTD, Eugene Buev and ex-CTO Paul Rumkin.
+        We're trying to reach current management team to clarify and solve
+        the situation.
+      </p>
+      <p>
+        Follow updates on this site or official telegram group <a href="https://t.me/MembranaPlatform">MembranaPlatform</a>.
+        Other channels <strong>could not</strong> be designed as deserved a trust due to speculations
+        and manipulations attempts.
+      </p>
+      <h2>Exchanges</h2>
+
+      <p>
+        Exhcanges where MBN token is listed:
+        <a href="https://abcc.com/">ABCC</a>, <a href="https://eterbase.exchange/">Eterbase<a/>, <a href="https://www.probit.com/">Probit</a>, <a href="http://idex.market/">Idex</a>.
+      <p>
+
+      <h2>Ethereum Contracts</h2>
+      <p>
+        Here it is the list of contracts controlled by current management.
+        There are transactions made till the lock period, what against the
+        WP:
+      </p>
+      <ul>
+        <li>
+          <a href="https://etherscan.io/token/0x4eeea7b48b9c3ac8f70a9c932a8b1e8a5cb624c7?a=0xaad462c3aa6ca38ba26278cdbe4f8856c5e53586">0xaad462c3aa6ca38ba26278cdbe4f8856c5e53586</a>
+        </li>
+        <li>
+          <a href="https://etherscan.io/token/0x4eeea7b48b9c3ac8f70a9c932a8b1e8a5cb624c7?a=0x4eac5d642578e619db2c1c2037ba0261bbf7fa7d">0x4eac5d642578e619db2c1c2037ba0261bbf7fa7d</a>
+        </li>
+        <li>
+          <a href="https://etherscan.io/token/0x4eeea7b48b9c3ac8f70a9c932a8b1e8a5cb624c7?a=0x951ada9ba94518e4d1a82d412e08a3020a22f9bc">0x951ada9ba94518e4d1a82d412e08a3020a22f9bc</a>
+        </li>
+        <li>
+          <a href="https://etherscan.io/token/0x4eeea7b48b9c3ac8f70a9c932a8b1e8a5cb624c7?a=0xa1b5dd1d5667fd178da1f6a95f5a00e9e625b7d1">0xa1b5dd1d5667fd178da1f6a95f5a00e9e625b7d1</a>
+        </li>
+        <li>
+          <a href="https://etherscan.io/token/0x4eeea7b48b9c3ac8f70a9c932a8b1e8a5cb624c7?a=0x3541f275c4dec01ed466760a8ad0c02c06638a4a">0x3541f275c4dec01ed466760a8ad0c02c06638a4a</a>
+        </li>
+      </ul>
+      <p>
+        It's a voting contracts. While management team refuses to publish the
+        source code of this contracts, we have reasons to think it's the contracts
+        made by former CTO of Membrana.
+      </p>
+      <ul>
+        <li>
+          <a href="https://github.com/official-membrana-io/ethereum/blob/master/contracts/Treasure/Erc20Treasure.sol">Erc20Treasure.sol</a> source code.
+        </li>
+        <li>
+          <a href="https://etherscan.io/bytecode-decompiler?a=0xaad462c3aa6ca38ba26278cdbe4f8856c5e53586">Decompiled contract</a> on Etherscan.
+        </li>
+        <li>
+          <a href="https://ethervm.io/decompile/0xaad462c3aa6ca38ba26278cdbe4f8856c5e53586">Decompiled contract</a> on Ethevm.io.
+        </li>
+      </ul>
     </div>
   </body>
 </html>
-
