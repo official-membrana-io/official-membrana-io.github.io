@@ -2,12 +2,33 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Unavailable</title>
+    <title>Attention! - Membrana.io</title>
     <style language="css">
-      html {
+      body {
         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-        background-color: #000;
-        color: #fff;
+      }
+
+      body {
+        color: #303858;
+      }
+
+      a {
+        color: #10967e;
+      }
+
+      @media (prefers-colo-scheme: dark) {
+        body {
+          background-color: #303858;
+          color: #e1e7ff;
+        }
+
+        a {
+          color: #10967e;
+        }
+      }
+
+      * {
+        box-sizing: border-box;
       }
 
       body {
@@ -17,18 +38,41 @@
         align-items: center;
       }
 
+      .Logo {
+        margin: 0 auto;
+        display: block;
+      }
+
       .Alert {
+        max-width: 620px;
+        margin: 0 auto;
+      }
+
+      .Alert-important {
+        font-size: 120%;
+      }
+
+      .text-center {
         text-align: center;
       }
     </style>
   </head>
   <body>
     <div class="Alert">
-      <img src="./logo.svg" />
+      <img class="Logo" src="./logo.svg" />
+
+      <h1 class="text-center" >Attention</h1>
+      <p class="Alert-important"><strong>Do not contribute</strong> to any
+        Membrana activity until statement will be made due to risk of funds loss.
+        <strong>Do not provide</strong> your personal or financial information to anyone. Only
+        commits, transactions and deployed contracts could be a significant proof.
+        <strong>Do contact</strong> one of the exchanges provided below,
+        if you're a client of this exchanges.
+      </p>
       <p>
-        Site is temporary unavailable.
+        If you have question contact <a href="mailto:info@membrana.io">info@membrana.io</a> or
+        telegram group <a href="https://t.me/MembranaPlatform">@MembranaPlatform</a>.
       </p>
     </div>
   </body>
 </html>
-
